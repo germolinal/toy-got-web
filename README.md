@@ -49,7 +49,7 @@ cd ..
 # BACK END
 ############
 cd back
-python3 main.py
+OPENAI_API_KEY=%YOUR_KEY% python3 main.py
 cd .. # go back... optional
 ```
 
